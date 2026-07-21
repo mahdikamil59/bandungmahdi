@@ -1,17 +1,28 @@
-body{
-    font-family: 'Courier New', Courier, monospace;
-    margin: 0;
-    margin-top: 0;
-}
-.atasan{
-    background-color: blue;
-    padding: 5px;
-    margin-top: 0px;
-    text-align: center;
-}
+    body{
+        font-family: 'Courier New', Courier, monospace;
+        margin: 0;
+        margin-top: 0;
+        background-color: rgb(189, 189, 240);
+    }
+    .atasan{
+        background-color: rgb(95, 95, 240);
+        padding: 5px;
+        margin:0%;
+        text-align: center;
+        color: white;
+    }
+    .atasan h1{
+        font-size: 9em;
+        margin: 0;
+    }
+    .atasan p{
+        margin: 0;
+        font-size: 15pt;
+    }
 ul{
     margin: 0;
     background-color: rgb(84, 84, 240);
+    padding: 10px 0;
 }
 li{
     display: inline;
@@ -22,4 +33,56 @@ li{
 li a{
     color: white;
     text-decoration: none;
+}
+li a:hover{
+    font-weight: 900;
+}
+.putih{
+    color:black;
+}
+section{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    color: black    ;
+    margin: 20px 100px;
+    text-align: justify;
+    text-indent: 30px;
+}
+section p{
+    margin:0;
+}
+.kartuutama{
+    display: flex;
+    flex-flow:wrap row;
+    margin:10px;
+    gap:10px;
+    justify-content: center;
+}
+.kartuanak{
+    opacity: 50%;
+    background-color: rgb(160, 160, 240);
+    width: 500px;
+    border: solid rgb(248, 246, 246) 2px;
+    border-radius: 24px;
+    padding: 10px;
+    text-align: justify;
+    margin: 10px 0;
+}
+.kartuanak:hover{
+    width: 550px;
+    opacity: 100%;
+}
+.kartuanak h2{
+    height: 100px;
+}
+footer{
+    margin: 10px;
+}
+footer p{
+    background-color:rgb(84, 84, 240) ;
+    padding: 10px;
+    text-align: center;
+    color: wheat;
+}
+img{
+    width: 100%;
 }
