@@ -1,0 +1,25 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    margin-top: 0;
+}
+.atasan{
+    background-color: blue;
+    padding: 5px;
+    margin-top: 0px;
+    text-align: center;
+}
+ul{
+    margin: 0;
+    background-color: rgb(84, 84, 240);
+}
+li{
+    display: inline;
+    list-style: none;
+    color: white;
+    margin-left: 50px;
+}
+li a{
+    color: white;
+    text-decoration: none;
+}
